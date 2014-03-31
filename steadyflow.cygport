@@ -1,0 +1,12 @@
+inherit cmake
+
+NAME="steadyflow"
+VERSION=0.2.0
+RELEASE=1
+CATEGORY="Net"
+SUMMARY="GTK+ download manager"
+DESCRIPTION="Steadyflow is a GTK+ based download manager that aims for
+minimalism, ease of use, and a clean, malleable codebase. It should be easy
+to control, whether from the GUI, command line, or D-Bus."
+HOMEPAGE="https://launchpad.net/steadyflow/"
+SRC_URI="https://launchpad.net/steadyflow/trunk/${VERSION}/+download/${NAME}-${VERSION}.tar.xz"
